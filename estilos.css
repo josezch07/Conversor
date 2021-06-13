@@ -109,16 +109,13 @@ select{
     }
     #cantidad{
         margin-top: 40px;
-        width: 32%;
+        width: 50%;
         margin-right: 22px;
         text-align: center;
     }
     button{
         width: 40%;
-        
-        
-    
-        
+     
     }
     #valor{
         margin-top: 50px;

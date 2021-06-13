@@ -17,6 +17,7 @@ fetch('https://openexchangerates.org/api/latest.json?app_id=38c96a2dbfcf4e3e85d2
         
         form.addEventListener('submit', (e)=>{
           e.preventDefault()
+            if(cantidad.value !== "number") valor.innerHTML = "Valor ingresado debe de ser un numero"
            if(convert.value === "1"){
                  let valorDolar = cantidad.value / colon; 
                  valor.innerHTML = `${valorDolar.toFixed(2)} $`

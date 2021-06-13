@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    
+    background: rgb(42, 169, 243);
+    font-family: 'Poppins', sans-serif;
+    overflow: hidden;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+h1{
+    font-size: 40px;
+    color: #fff;
+    margin-bottom: 80px;
+
+}
+.container{
+    width: 400px;
+    height: 280px;
+    border: 1px solid  rgb(42, 169, 243);
+    border-radius: 10px;
+    box-shadow: 0 5px 10px #000;
+    
+    backdrop-filter: blur(15px);
+    text-align: center;
+ 
+    position: relative;
+}
+
+h3{
+    color: cornsilk;
+    letter-spacing: 2px;
+    font-weight: bolder;
+    font-size: 23px;
+}
+button{
+    margin-top: 20px;
+}
+#valor{
+    margin-top: 20px;
+    color: #fff;
+    font-weight: bolder;
+}
+button{
+    padding: 8px 15px;
+    cursor: pointer;
+    background-color: rgba(154, 255, 23, 0.4);
+    border: none;
+    box-shadow: 0 3px 3px #333;
+    color: #fff;
+    border-radius: 10px;
+    margin-top: 70px;
+    letter-spacing:2px ;
+}
+select{
+    padding: 5px;
+    color: #fff;
+    background: rgba(154, 255, 23, 0.4);
+    box-shadow: 0 3px 3px #333;
+    border: none;
+    border-radius: 10px;
+    font-size: 15px;
+    outline: none;
+    cursor: pointer;
+}
+#cantidad{
+    padding: 6px 8px;
+    color: #fff;
+    background: rgba(154, 255, 23, 0.4);
+    box-shadow: 0 3px 3px #333;
+    border: none;
+    margin-left: 20px;
+    outline: none;
+    border-radius: 10px;
+}
+#cantidad::placeholder{
+    color: #ddd;
+}
+
+
+
+
+@media (max-width:700px){
+    .container{
+        width: 70%;
+        padding: 30px;
+        height: 380px;
+        position: relative;
+    }
+    h1{
+        font-size: 25px;
+    }
+    h3{
+        font-size: 18px;
+    }
+    #form{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    
+    }
+    #cantidad{
+        margin-top: 40px;
+      
+        width: 32%;
+        margin-right: 22px;
+        text-align: center;
+    }
+    button{
+        width: 40%;
+        
+        
+    
+        
+    }
+    #valor{
+        margin-top: 50px;
+        font-size: 25px;
+        position: relative;
+    }
+}
